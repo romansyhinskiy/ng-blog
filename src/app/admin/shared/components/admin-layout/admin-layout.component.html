@@ -3,7 +3,7 @@
         <a routerLink="/">Angular Admin</a>
     </h3>
 
-<ul class="d-flex align-items-center mb-0">
+<ul class="d-flex align-items-center mb-0" *ngIf="auth.isAuthenticated()">
     <li>
         <a [routerLink]="['/admin', 'dashboard']">Main</a>
     </li>
