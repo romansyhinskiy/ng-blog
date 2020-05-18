@@ -8,7 +8,7 @@ import {FbAuthResponse} from '../../../../environments/interface';
 import {throwError} from 'rxjs/internal/observable/throwError';
 import {Subject} from 'rxjs/Subject';
 
-@Injectable()
+@Injectable({providedIn: 'root'})
 
 export class AuthService {
 

@@ -10,3 +10,7 @@ export interface User {
    author: string;
    date: Date
  }
+
+ export interface FbCreateResponse {
+   name: string
+ }
